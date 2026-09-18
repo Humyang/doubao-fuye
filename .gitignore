@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 闲鱼登录态 / 缓存（绝不入库）
+.cache/
+*.cookies.json
+.env
+.env.local
+
+# 工作流产出图与日志
+*.png
+*.jpg
+logs/
+*.log
+
+# 系统
+.DS_Store
