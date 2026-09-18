@@ -58,6 +58,14 @@ doubao-fuye/
 
 详细安装步骤见 [docs/MCP_INSTALL.md](docs/MCP_INSTALL.md)。
 
+## 参考项目
+
+本工作流的闲鱼 MCP（FishClaw）与网盘发布流程，参考并基于以下项目整理：
+
+- **[mousepotato/baidu-netdisk-xianyu](https://github.com/mousepotato/baidu-netdisk-xianyu)** — 百度网盘 MCP + 闲鱼 MCP（FishClaw）双 MCP 仓库，含 stdio 接入示例、环境变量模板与免责声明。本仓库的 `xianyu-mcp` 目录结构、Playwright 自动化思路与豆包自定义连接器（STDIO）接法均来源于此。
+- **[TnoobT/FishClaw_MCP](https://github.com/TnoobT/FishClaw_MCP)** — 闲鱼 Playwright 自动化 MCP 上游项目（`xianyu-mcp` 的直接参考来源）。
+- **夸克网盘 Skill** — 豆包官方 `quarkclouddrive` Skill（Node CLI），通过 `bash scripts/install.sh` 安装与授权。
+
 ## 免责声明
 
 本工作流仅供学习交流与个人自用自动化。闲鱼侧通过浏览器自动化（Playwright）操作网页，可能因页面改版、风控、登录态失效而失败；请遵守闲鱼/阿里用户协议与当地法律法规，勿用于批量违规上架。使用后果由使用者自行承担。

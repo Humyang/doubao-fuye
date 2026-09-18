@@ -60,6 +60,8 @@ bash scripts/uninstall.sh     # 撤销授权 + 清 CLI
 
 ## 二、闲鱼 MCP（FishClaw）
 
+> 来源：本 MCP 整理自 [mousepotato/baidu-netdisk-xianyu](https://github.com/mousepotato/baidu-netdisk-xianyu) 的 `xianyu-mcp/` 目录，其上游为 [TnoobT/FishClaw_MCP](https://github.com/TnoobT/FishClaw_MCP)。如需网盘 + 闲鱼双 MCP 完整配置，直接参考该仓库 README。
+
 ### 1. 前置条件
 
 - macOS / Linux（Windows 需自行改路径）
