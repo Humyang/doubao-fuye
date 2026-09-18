@@ -9,6 +9,11 @@
 
 ## 一、夸克网盘 Skill（quarkclouddrive）
 
+> 夸克网盘不是 GitHub 开源项目，而是豆包官方分发的 Skill。相关地址：
+> - 夸克网盘官网 / 网页版：<https://pan.quark.cn>
+> - Skill 安装源（`install.sh` 自动调用的配置接口）：`https://open-api-drive.quark.cn/agent/v1/skill_config`，由它返回最新 skill zip 下载地址。
+> - 在豆包中，该 Skill 通常已随官方分发生成；若需重装/升级，按下面 `bash scripts/install.sh` 执行即可。
+
 ### 1. 前置条件
 
 - macOS / Linux / Windows

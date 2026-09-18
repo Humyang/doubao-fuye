@@ -64,7 +64,7 @@ doubao-fuye/
 
 - **[mousepotato/baidu-netdisk-xianyu](https://github.com/mousepotato/baidu-netdisk-xianyu)** — 百度网盘 MCP + 闲鱼 MCP（FishClaw）双 MCP 仓库，含 stdio 接入示例、环境变量模板与免责声明。本仓库的 `xianyu-mcp` 目录结构、Playwright 自动化思路与豆包自定义连接器（STDIO）接法均来源于此。
 - **[TnoobT/FishClaw_MCP](https://github.com/TnoobT/FishClaw_MCP)** — 闲鱼 Playwright 自动化 MCP 上游项目（`xianyu-mcp` 的直接参考来源）。
-- **夸克网盘 Skill** — 豆包官方 `quarkclouddrive` Skill（Node CLI），通过 `bash scripts/install.sh` 安装与授权。
+- **夸克网盘 Skill** — 豆包官方 `quarkclouddrive` Skill（Node CLI）。官网/网页版：<https://pan.quark.cn>；Skill 由 `scripts/install.sh` 从夸克开放平台 <https://open-api-drive.quark.cn> 自动拉取安装包，安装后对豆包说"授权"绑定。
 
 ## 免责声明
 
